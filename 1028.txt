@@ -1,0 +1,16 @@
+simply 
+"key"를 만든다. -"보안"
+setting에 키를 만드는 방식이 있다고 해
+https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+공공 보안을 사용하는 용도로 보이는데
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+결과는 캡쳐 해놓을게 1번은 잘못된거 2번은 잘된거
+putty에서 복사는 좌클릭 드래그로도 가능 신기신기 
+#우클릭은 붙여넣기
+자료 3처럼 완료가 된다
+----------------여기까지 준비 과정----------------------------------
+자 이제 시작하기 전에 putty에서 git 내부로 이동해 보자고
+4번을 참고하되
+git clone "주소"
+자 여기를 이제 git 저장소로 만들어야하잖아?
+git init git:여기는 제 땅이에요
