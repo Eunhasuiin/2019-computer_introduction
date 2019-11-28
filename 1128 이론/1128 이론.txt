@@ -1,0 +1,27 @@
+domain==홈페이지 adress
+Domain Name System - 도메인 이름과 IP주소의 쌍을 알고 있는 친구
+DNS server - 학내 서버라고 하면 학교내 웹서버나 메일서버는 가지고 있으나 타 회사/학교 정보는 저장하지 않음
+result - 또 찾으러 올라가야함
+
+www.naver.com
+하위->상위
+
+Root domain: 보통 국가 코드의 정보를 저장한다
+
+LAN의 DNS 서버에 www.naver.com에 대한 정보가 없으면 root domain의 domain 서버에 질의
+com의 DMS 서버에 질의
+naver.com의 DNS서버에 질의
+우리의 컴퓨터/노트북으로 서버 주소 전달
+
+IP: 컴퓨터 고유의 문
+port:프로그램이 사용할 고유의 문
+
+Transmission Control Protocol: 신뢰성이 요구되는 앱에서 사용
+User Datagram Protocol: 간단한 데이터를 고속으로 전송하는 앱
+TCS - (MAC헤더(주소)(이친구는 전송할때는 제거됨)+IP헤더(주소)+포트헤더(주소)+데이터)
+라우팅 테이블: 데이터를 어따가 보낼 것인가? 그리고 그걸 누구에게 물어볼 것인가
+넷마스크? filtering하는 장치 - 호스트 주소를 삭제해서 네트워크 주소가 어디인지 찾는 용도
+	-and연산을 활용
+
+Media Acess Control 주소 - 우리가 사용하는 network card의 고유주소 - 보냈음을 확증하기 위한 용도 그렇기에 라우터에서 확인 후 제거라 추측
+

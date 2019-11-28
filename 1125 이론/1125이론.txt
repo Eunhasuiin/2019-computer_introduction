@@ -1,0 +1,7 @@
+검색 
+SELECT 속성리스트
+FROM 릴레이션리스트
+WHERE 조건;
+
+토폴로지-네트워크를 형성하는 모양 ex) ring form
+공격시 대처하기 가장 좋은 친구는 bus form
